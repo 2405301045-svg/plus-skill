@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plus Skills | Proof Over Pedigree - Student Employability Startup</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Plus Skills turns college learning into verified, job-ready performance. Solve live brand-style projects, get reviewed by working professionals, earn a ranked score, and unlock scholarships and internships. For BCA, B.Tech & BBA students in India.">
+  <meta name="keywords" content="Plus Skills, student employability, India Skills Report 2026, BCA, B.Tech, BBA, live industry projects, mentor review, proof over pedigree, Team DIGITALERS">
+  <meta name="author" content="Team DIGITALERS">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plus-skills.vercel.app/">
+  <meta property="og:title" content="Plus Skills | Do the job before you're hired">
+  <meta property="og:description" content="Turning college learning into verified, job-ready performance for 2nd/3rd-year BCA, B.Tech, and BBA students in India. Proof over pedigree.">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Plus Skills | Proof Over Pedigree">
+  <meta property="twitter:description" content="Do the job before you're hired. Verified performance, industry reviews, and ranked scores for college students in India.">
+
+  <!-- Favicon: Inline SVG matching Plus Skills logo -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233B2FE0'/%3E%3Crect x='13.5' y='8' width='5' height='16' rx='2.5' fill='%23FFFFFF'/%3E%3Crect x='8' y='13.5' width='16' height='5' rx='2.5' fill='%23FFFFFF'/%3E%3Crect x='21' y='21' width='6' height='6' rx='1.5' fill='%23FFD23F'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Bricolage Grotesque (headings) & DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-banner" role="region" aria-label="Cohort Announcement">
+    <div class="banner-inner">
+      <span class="badge-pulse">PILOT BATCH 2026 OPEN</span>
+      <span class="banner-text">Calling 2nd &amp; 3rd-year <strong>BCA, B.Tech &amp; BBA</strong> students across India. Limited pilot cohorts.</span>
+      <a href="#pilot" class="banner-link">Apply for Free Pilot &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="top">
+    <div class="nav-container">
+      <a href="#top" class="brand-logo-link" aria-label="Plus Skills Home">
+        <!-- Plus Skills Inline SVG Logo -->
+        <svg class="brand-logo-svg" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false">
+          <rect width="40" height="40" rx="10" fill="#3B2FE0"/>
+          <!-- Plus Sign -->
+          <rect x="17" y="10" width="6" height="20" rx="3" fill="#FFFFFF"/>
+          <rect x="10" y="17" width="20" height="6" rx="3" fill="#FFFFFF"/>
+          <!-- Signal Yellow Accent Square in Bottom-Right -->
+          <rect x="26" y="26" width="8" height="8" rx="2" fill="#FFD23F"/>
+        </svg>
+        <div class="brand-name-group">
+          <span class="brand-title">Plus Skills</span>
+          <span class="brand-tagline">Proof over pedigree</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#problem" class="nav-link">The Problem</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#comparison" class="nav-link">Why Us</a></li>
+          <li><a href="#brand" class="nav-link">Brand System</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#pilot" class="btn btn-primary btn-sm">Join the pilot</a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="menu-toggle" class="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Nav -->
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <ul class="mobile-nav-list">
+        <li><a href="#problem" class="mobile-nav-link">The Problem</a></li>
+        <li><a href="#how-it-works" class="mobile-nav-link">How It Works</a></li>
+        <li><a href="#comparison" class="mobile-nav-link">Why Us</a></li>
+        <li><a href="#brand" class="mobile-nav-link">Brand System</a></li>
+        <li><a href="#team" class="mobile-nav-link">Team DIGITALERS</a></li>
+        <li class="mobile-cta-item">
+          <a href="#pilot" class="btn btn-primary btn-block">Join the pilot</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ========================================================================= -->
+    <!-- 1. HERO SECTION WITH INTERACTIVE DEMO LEADERBOARD                         -->
+    <!-- ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="audience-badge">
+            <span class="flag-icon">🇮🇳</span>
+            <span>Exclusively for 2nd &amp; 3rd-Year BCA, B.Tech &amp; BBA Students</span>
+          </div>
+
+          <h1 class="hero-title">
+            Do the job before <br>
+            <span class="highlight-ink">you're hired</span>
+          </h1>
+
+          <p class="hero-subtext">
+            Plus Skills turns college learning into verified, job-ready performance.
+            Execute live brand-style briefs, get reviewed by working industry professionals,
+            earn a tamper-proof ranked score, and unlock scholarships, free courses, certificates,
+            and fast-tracked internship and placement support.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#pilot" class="btn btn-primary btn-lg shadow-offset">
+              <span>Join the pilot</span>
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#how-it-works" class="btn btn-secondary btn-lg">
+              <span>See how it works</span>
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M14.707 10.293a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L11.586 12H6a1 1 0 110-2h5.586L9.293 7.707a1 1 0 011.414-1.414l4 4z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-proof-pills">
+            <div class="proof-pill">
+              <svg class="check-icon" viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Vetted Working Pro Reviews</span>
+            </div>
+            <div class="proof-pill">
+              <svg class="check-icon" viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Zero-Fluff Standardized Rank</span>
+            </div>
+            <div class="proof-pill">
+              <svg class="check-icon" viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Direct Placement Fast-Track</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Interactive Demo Leaderboard Column -->
+        <div class="hero-leaderboard-wrapper">
+          <div class="leaderboard-card" id="leaderboard-card">
+            <!-- Card Header -->
+            <div class="leaderboard-card-header">
+              <div class="header-left">
+                <span class="live-dot" aria-hidden="true"></span>
+                <div>
+                  <h2 class="leaderboard-title">Live Pilot Leaderboard</h2>
+                  <p class="leaderboard-subtitle">National Cohort 2026 • Verified Benchmarks</p>
+                </div>
+              </div>
+              <span class="tag-status">Live Benchmarking</span>
+            </div>
+
+            <!-- User Interactive Control Strip -->
+            <div class="user-interactive-strip" id="user-interactive-strip">
+              <div class="user-status-card" id="user-status-box">
+                <div class="user-avatar-tag">
+                  <span class="user-avatar-init">AS</span>
+                </div>
+                <div class="user-details">
+                  <div class="user-name-row">
+                    <strong class="user-name">Aarav Sharma</strong>
+                    <span class="badge-role">3rd Yr B.Tech • You</span>
+                  </div>
+                  <div class="user-meta" id="user-meta-text">
+                    Project status: <span class="status-state text-warning">Draft brief ready for review</span>
+                  </div>
+                </div>
+                <div class="user-score-box">
+                  <div class="score-label">Current Rank</div>
+                  <div class="score-val" id="user-current-rank">#42</div>
+                </div>
+              </div>
+
+              <!-- Interactive Submit Button -->
+              <div class="submission-action-bar">
+                <button type="button" id="submit-project-btn" class="btn btn-accent btn-block btn-interactive">
+                  <span class="btn-icon">⚡</span>
+                  <span id="submit-btn-text">Submit project for pro review</span>
+                </button>
+                <button type="button" id="reset-demo-btn" class="btn-text-reset" style="display:none;" aria-label="Reset leaderboard simulation">
+                  ↺ Reset demo
+                </button>
+              </div>
+
+              <!-- Simulation Toast / Stage Message -->
+              <div id="simulation-toast" class="simulation-stage-bar" style="display:none;" role="status" aria-live="polite">
+                <div class="spinner-sm" aria-hidden="true"></div>
+                <span id="simulation-msg">Submitting project deliverables to review queue...</span>
+              </div>
+
+              <!-- Unlocked Rewards Banner (Appears after submission) -->
+              <div id="reward-unlocked-banner" class="reward-unlocked-card" style="display: none;">
+                <div class="reward-icon-badge">🎉</div>
+                <div class="reward-content">
+                  <strong class="reward-title">Performance Rewards Unlocked!</strong>
+                  <p class="reward-desc">Rank #3 Achieved (94/100). You just unlocked a <strong>100% Course Scholarship</strong>, <strong>Verified Rank Certificate</strong>, and <strong>Direct Internship Interview Referral</strong>.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Leaderboard Items List -->
+            <div class="leaderboard-table" role="table" aria-label="Student Rank Leaderboard">
+              <div class="table-header-row" role="row">
+                <div class="col-rank" role="columnheader">Rank</div>
+                <div class="col-student" role="columnheader">Student &amp; College</div>
+                <div class="col-reviewer" role="columnheader">Reviewer Proof</div>
+                <div class="col-score" role="columnheader">Score</div>
+              </div>
+
+              <div class="leaderboard-body" id="leaderboard-rows" role="rowgroup">
+                <!-- Row 1 -->
+                <div class="leaderboard-row" role="row">
+                  <div class="col-rank" role="cell">
+                    <span class="rank-badge rank-1">#1</span>
+                  </div>
+                  <div class="col-student" role="cell">
+                    <div class="student-name">Priya Verma</div>
+                    <div class="student-sub">3rd Yr BCA • Bangalore</div>
+                  </div>
+                  <div class="col-reviewer" role="cell">
+                    <span class="verified-tag">
+                      <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                      Verified by Staff PM @ FinTech
+                    </span>
+                  </div>
+                  <div class="col-score" role="cell">
+                    <span class="score-pill score-high">97/100</span>
+                  </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="leaderboard-row" role="row">
+                  <div class="col-rank" role="cell">
+                    <span class="rank-badge rank-2">#2</span>
+                  </div>
+                  <div class="col-student" role="cell">
+                    <div class="student-name">Rohan Patel</div>
+                    <div class="student-sub">2nd Yr B.Tech • Pune</div>
+                  </div>
+                  <div class="col-reviewer" role="cell">
+                    <span class="verified-tag">
+                      <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                      Verified by Sr. SDE @ SaaS
+                    </span>
+                  </div>
+                  <div class="col-score" role="cell">
+                    <span class="score-pill score-high">95/100</span>
+                  </div>
+                </div>
+
+                <!-- Dynamic User Row will slot here into #3 when submitted -->
+                <div id="dynamic-user-row" class="leaderboard-row user-row-dormant" role="row">
+                  <div class="col-rank" role="cell">
+                    <span class="rank-badge rank-default" id="user-row-badge">#42</span>
+                  </div>
+                  <div class="col-student" role="cell">
+                    <div class="student-name">
+                      Aarav Sharma <span class="you-indicator">YOU</span>
+                    </div>
+                    <div class="student-sub" id="user-subtext">3rd Yr B.Tech • Delhi NCR</div>
+                  </div>
+                  <div class="col-reviewer" role="cell">
+                    <span class="verified-tag tag-pending" id="user-verified-badge">
+                      Pending Project Submission
+                    </span>
+                  </div>
+                  <div class="col-score" role="cell">
+                    <span class="score-pill score-pending" id="user-score-badge">61/100</span>
+                  </div>
+                </div>
+
+                <!-- Row 4 (originally #3) -->
+                <div class="leaderboard-row" id="row-neha" role="row">
+                  <div class="col-rank" role="cell">
+                    <span class="rank-badge rank-3" id="badge-neha">#3</span>
+                  </div>
+                  <div class="col-student" role="cell">
+                    <div class="student-name">Neha Sundaram</div>
+                    <div class="student-sub">3rd Yr B.Tech • Chennai</div>
+                  </div>
+                  <div class="col-reviewer" role="cell">
+                    <span class="verified-tag">
+                      <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                      Verified by Tech Lead @ D2C
+                    </span>
+                  </div>
+                  <div class="col-score" role="cell">
+                    <span class="score-pill score-good">92/100</span>
+                  </div>
+                </div>
+
+                <!-- Row 5 (originally #4) -->
+                <div class="leaderboard-row" id="row-ananya" role="row">
+                  <div class="col-rank" role="cell">
+                    <span class="rank-badge rank-default" id="badge-ananya">#4</span>
+                  </div>
+                  <div class="col-student" role="cell">
+                    <div class="student-name">Ananya Iyer</div>
+                    <div class="student-sub">3rd Yr BBA • Mumbai</div>
+                  </div>
+                  <div class="col-reviewer" role="cell">
+                    <span class="verified-tag">
+                      <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor"><path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                      Verified by Growth VP @ EdTech
+                    </span>
+                  </div>
+                  <div class="col-score" role="cell">
+                    <span class="score-pill score-good">90/100</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Footer Note -->
+            <div class="leaderboard-card-footer">
+              <span class="lock-icon">🔒</span>
+              <span>All evaluations scored on standard 5-point production rubrics. Tamper-proof hash issued per submission.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 2. PROBLEM SECTION                                                        -->
+    <!-- ========================================================================= -->
+    <section class="section section-problem" id="problem">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">The College-to-Career Gap</div>
+          <h2 class="section-title">The hard truth facing college graduates in India</h2>
+          <p class="section-subtitle">
+            Degrees check an application box. But when hiring managers open resumes, they don't look for college GPA — they search for proven output.
+          </p>
+        </div>
+
+        <!-- 3 Primary Stats Cards -->
+        <div class="stats-grid">
+          <article class="stat-card" data-stat="1">
+            <div class="stat-header">
+              <span class="stat-number">56.35%</span>
+              <span class="stat-badge">2026 Milestone</span>
+            </div>
+            <h3 class="stat-title">Graduate Employability</h3>
+            <p class="stat-description">
+              Barely 56.35% of Indian higher-education graduates meet real-world job readiness standards. More than 43% require extensive retraining before contributing to production environments.
+            </p>
+            <div class="stat-impact">
+              <span class="impact-label">Student Reality:</span>
+              <p>Graduating with high marks without verified code or project artifacts leaves students in hyper-competitive generic queues.</p>
+            </div>
+          </article>
+
+          <article class="stat-card highlight-card" data-stat="2">
+            <div class="stat-header">
+              <span class="stat-number">72%</span>
+              <span class="stat-badge badge-warning">Curriculum Lag</span>
+            </div>
+            <h3 class="stat-title">Curriculum Misalignment</h3>
+            <p class="stat-description">
+              72% of college syllabi are misaligned with modern corporate engineering and growth workflows. Syllabus cycles take 4-6 years to update while technology stacks evolve quarterly.
+            </p>
+            <div class="stat-impact">
+              <span class="impact-label">Student Reality:</span>
+              <p>Exam papers ask for pen-and-paper code while the industry expects Git PRs, CI/CD, microservice hygiene, and API telemetry.</p>
+            </div>
+          </article>
+
+          <article class="stat-card" data-stat="3">
+            <div class="stat-header">
+              <span class="stat-number">64%</span>
+              <span class="stat-badge badge-success">Recruiter Shift</span>
+            </div>
+            <h3 class="stat-title">Employers Favour Practical Skills</h3>
+            <p class="stat-description">
+              64% of employers and tech hiring leads now prioritize verified practical skills, live project execution, and validated portfolios over college brand pedigree or academic tier.
+            </p>
+            <div class="stat-impact">
+              <span class="impact-label">Student Reality:</span>
+              <p>A BCA student with verified project proof consistently beats a tier-1 graduate who has only theoretical certificates.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Source Note Requirement -->
+        <div class="source-citation-card">
+          <div class="source-content">
+            <svg class="source-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            <div>
+              <strong>Source note: India Skills Report 2026</strong>
+              <p>Key findings on graduate employability indices, curriculum alignment benchmarks, and recruiter hiring preferences across Tier 1, 2, and 3 Indian educational institutions.</p>
+            </div>
+          </div>
+          <a href="#how-it-works" class="source-action">See how Plus Skills solves this &rarr;</a>
+        </div>
+
+        <!-- Audience Breakdown -->
+        <div class="audience-triad-grid">
+          <div class="triad-card">
+            <div class="triad-pill">2nd &amp; 3rd-Year BCA</div>
+            <h4 class="triad-title">Overcome the Degree Bias</h4>
+            <p>BCA students often face unfair filters from recruiters who default to B.Tech. Plus Skills provides unarguable code proof that dismantles pedigree biases on day one.</p>
+          </div>
+          <div class="triad-card">
+            <div class="triad-pill">2nd &amp; 3rd-Year B.Tech</div>
+            <h4 class="triad-title">Break Away From 1.5M Peers</h4>
+            <p>15 lakh engineers graduate every year with the exact same resume keywords. A validated percentile score and pro review separates you from the crowd instantly.</p>
+          </div>
+          <div class="triad-card">
+            <div class="triad-pill">2nd &amp; 3rd-Year BBA</div>
+            <h4 class="triad-title">Real Growth &amp; Product Proof</h4>
+            <p>Replace generic marketing slides with live brand acquisition models, unit economics teardowns, and user conversion funnels reviewed by real brand leads.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 3. HOW IT WORKS SECTION (4 STEPS)                                         -->
+    <!-- ========================================================================= -->
+    <section class="section section-how" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">The 4-Step Engine</div>
+          <h2 class="section-title">How Plus Skills turns your effort into job offers</h2>
+          <p class="section-subtitle">
+            No endless passive videos. No unreviewed assignments. Just genuine execution, expert critique, and proven outcomes.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number-badge">01</div>
+            <div class="step-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Live Project</h3>
+            <p class="step-description">
+              Tackle live brand-style briefs designed around actual day-one workplace tasks. Build real features: payment reconciliation, webhook listeners, or retention engines.
+            </p>
+            <ul class="step-features">
+              <li>Production repo templates (GitHub)</li>
+              <li>Brand-spec user stories &amp; edge cases</li>
+              <li>No synthetic to-do app clones</li>
+            </ul>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number-badge">02</div>
+            <div class="step-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="step-title">Mentor Review</h3>
+            <p class="step-description">
+              Working software engineers, product architects, and growth leads review your code line-by-line. Receive rigorous, actionable feedback directly in PR comments.
+            </p>
+            <ul class="step-features">
+              <li>Senior industry practitioner feedback</li>
+              <li>Security, architecture &amp; scale audits</li>
+              <li>Actionable revision rounds</li>
+            </ul>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number-badge">03</div>
+            <div class="step-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">Ranked Score</h3>
+            <p class="step-description">
+              Earn an objective, percentile-based score backed by detailed rubric breakdowns. Your ranked proof is cryptographically shareable with top hiring partners.
+            </p>
+            <ul class="step-features">
+              <li>Cohort percentile ranking (Top 1%, 5%, 10%)</li>
+              <li>Standardized skill-level scorecards</li>
+              <li>Proof profile recruiters trust</li>
+            </ul>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card step-card-reward">
+            <div class="step-number-badge">04</div>
+            <div class="step-icon-box">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h3 class="step-title">Rewards</h3>
+            <p class="step-description">
+              Your high ranking unlocks tangible career multipliers. No empty paper certificates—real value earned solely through merit and verified execution.
+            </p>
+            <ul class="step-features reward-list">
+              <li><strong>Scholarship:</strong> Merit grants for top rankers</li>
+              <li><strong>Free Course:</strong> Advanced masterclasses unlocked</li>
+              <li><strong>Certificate:</strong> Verified performance credential</li>
+              <li><strong>Internship &amp; Placement:</strong> Direct fast-track hiring referrals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 4. COMPETITOR COMPARISON TABLE                                            -->
+    <!-- ========================================================================= -->
+    <section class="section section-comparison" id="comparison">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Market Differentiation</div>
+          <h2 class="section-title">How Plus Skills compares to traditional platforms</h2>
+          <p class="section-subtitle">
+            Most platforms sell certificates for watching videos or charge lakhs in income-share agreements. Here is why Plus Skills is built differently for college students.
+          </p>
+        </div>
+
+        <div class="table-responsive-wrapper">
+          <table class="comparison-table" aria-label="Comparison between Plus Skills and other platforms">
+            <thead>
+              <tr>
+                <th scope="col" class="th-feature">Platform Dimension</th>
+                <th scope="col" class="th-plus highlight-col">
+                  <div class="brand-col-header">
+                    <span class="badge-recommend">RECOMMENDED</span>
+                    <strong class="col-title">Plus Skills</strong>
+                    <span class="col-tagline">Proof over pedigree</span>
+                  </div>
+                </th>
+                <th scope="col" class="th-competitor">
+                  <strong class="col-title">Internshala</strong>
+                  <span class="col-tagline">Listing Portal</span>
+                </th>
+                <th scope="col" class="th-competitor">
+                  <strong class="col-title">GUVI</strong>
+                  <span class="col-tagline">Vernacular Courses</span>
+                </th>
+                <th scope="col" class="th-competitor">
+                  <strong class="col-title">Masai / NxtWave</strong>
+                  <span class="col-tagline">Bootcamp ISAs</span>
+                </th>
+                <th scope="col" class="th-competitor">
+                  <strong class="col-title">upGrad</strong>
+                  <span class="col-tagline">Degree Aggregators</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="row-label">Core Learning Model</th>
+                <td class="highlight-cell">
+                  <strong class="text-proof-blue">Live Brand-Style Projects</strong>
+                  <p class="cell-sub">Real production tasks with business stakes</p>
+                </td>
+                <td>Generic video trainings &amp; job board posts</td>
+                <td>Self-paced recorded coding courses in regional languages</td>
+                <td>Full-time, 10-12 hr/day bootcamp lectures</td>
+                <td>Pre-recorded academic degree / diploma lectures</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-label">Review &amp; Evaluation</th>
+                <td class="highlight-cell">
+                  <strong class="text-proof-blue">Working Industry Professionals</strong>
+                  <p class="cell-sub">PR-level critique from senior SDEs &amp; PMs</p>
+                </td>
+                <td>Automated multiple-choice tests</td>
+                <td>Automated code compiler checks</td>
+                <td>Internal batch TAs and coordinators</td>
+                <td>Academic professors &amp; teaching assistants</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-label">Standardized Ranked Score</th>
+                <td class="highlight-cell">
+                  <span class="check-badge">✅ Yes — Verified Rank</span>
+                  <p class="cell-sub">Standardized national percentile index</p>
+                </td>
+                <td><span class="cross-badge">❌ None</span> (Completion certificates)</td>
+                <td><span class="cross-badge">❌ None</span> (Course badge)</td>
+                <td><span class="warning-badge">⚠️ Internal grading</span> (Not recognized outside)</td>
+                <td><span class="cross-badge">❌ None</span> (Standard college CGPA)</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-label">College Student Friendly</th>
+                <td class="highlight-cell">
+                  <strong class="text-proof-blue">Designed for 2nd/3rd Yr BCA, B.Tech, BBA</strong>
+                  <p class="cell-sub">Fits your semester alongside exams</p>
+                </td>
+                <td>High applicant volume (500+ applicants per post)</td>
+                <td>Focused mainly on entry-level programming syntax</td>
+                <td>Requires full-time dropouts or leaves no time for college</td>
+                <td>Targeted at working executives with high fees</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-label">Cost &amp; Debt Liability</th>
+                <td class="highlight-cell">
+                  <strong class="text-rank-green">Zero Debt • Earn Scholarships</strong>
+                  <p class="cell-sub">Free pilot with merit-based performance rewards</p>
+                </td>
+                <td>Pay per short course (₹1,500 – ₹5,000)</td>
+                <td>Paid subscription / course bundles</td>
+                <td>Hefty ISA commitments (₹1.5L – ₹3L+ post salary cut)</td>
+                <td>Massive upfront cost (₹1.5L – ₹5L+)</td>
+              </tr>
+              <tr>
+                <th scope="row" class="row-label">Career Unlocks</th>
+                <td class="highlight-cell">
+                  <strong class="text-proof-blue">Direct Fast-Track Interviews</strong>
+                  <p class="cell-sub">Ranked students skip resume filtering</p>
+                </td>
+                <td>Cold open job listings with unvetted stipends</td>
+                <td>Placement drives with varied participation</td>
+                <td>Placement guarantee tied to rigid ISA rules</td>
+                <td>Alumni job portal with general listings</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 5. BRAND GUIDELINES SECTION                                               -->
+    <!-- ========================================================================= -->
+    <section class="section section-brand" id="brand">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Identity System</div>
+          <h2 class="section-title">Brand Guidelines: Built on Conviction</h2>
+          <p class="section-subtitle">
+            Our visual identity reflects our ethos: confident, bold, pragmatic, and unpretentious. Every color and curve signals authority and measurable proof.
+          </p>
+        </div>
+
+        <!-- Logo Showcase -->
+        <div class="brand-grid-block">
+          <h3 class="brand-subsection-title">Logo Variants</h3>
+          <p class="brand-subsection-sub">Designed as an inline scalable vector mark. A rounded square in Proof Blue with a pure white plus sign and a signal-yellow foundation square.</p>
+          
+          <div class="logo-variants-grid">
+            <!-- Primary Light Variant -->
+            <div class="logo-spec-card light-spec">
+              <div class="logo-display-box">
+                <svg viewBox="0 0 40 40" width="64" height="64" aria-label="Primary Logo">
+                  <rect width="40" height="40" rx="10" fill="#3B2FE0"/>
+                  <rect x="17" y="10" width="6" height="20" rx="3" fill="#FFFFFF"/>
+                  <rect x="10" y="17" width="20" height="6" rx="3" fill="#FFFFFF"/>
+                  <rect x="26" y="26" width="8" height="8" rx="2" fill="#FFD23F"/>
+                </svg>
+                <div class="logo-text-sample">
+                  <span class="sample-name">Plus Skills</span>
+                  <span class="sample-sub">Proof over pedigree</span>
+                </div>
+              </div>
+              <div class="logo-spec-footer">
+                <strong>Primary Mark</strong>
+                <span>Used on light backgrounds and headers</span>
+              </div>
+            </div>
+
+            <!-- Dark / Inverted Variant -->
+            <div class="logo-spec-card dark-spec">
+              <div class="logo-display-box">
+                <svg viewBox="0 0 40 40" width="64" height="64" aria-label="Dark Inverted Logo">
+                  <rect width="40" height="40" rx="10" fill="#14143F" stroke="#3B2FE0" stroke-width="2"/>
+                  <rect x="17" y="10" width="6" height="20" rx="3" fill="#3B2FE0"/>
+                  <rect x="10" y="17" width="20" height="6" rx="3" fill="#3B2FE0"/>
+                  <rect x="26" y="26" width="8" height="8" rx="2" fill="#FFD23F"/>
+                </svg>
+                <div class="logo-text-sample light-text">
+                  <span class="sample-name">Plus Skills</span>
+                  <span class="sample-sub">Dark Edition</span>
+                </div>
+              </div>
+              <div class="logo-spec-footer">
+                <strong>Inverted / Dark Mark</strong>
+                <span>High-contrast dark surfaces &amp; hero cards</span>
+              </div>
+            </div>
+
+            <!-- Monotone / Icon Variant -->
+            <div class="logo-spec-card mono-spec">
+              <div class="logo-display-box">
+                <svg viewBox="0 0 40 40" width="64" height="64" aria-label="Monochrome Icon">
+                  <rect width="40" height="40" rx="10" fill="#FFFFFF" stroke="#14143F" stroke-width="3"/>
+                  <rect x="17" y="10" width="6" height="20" rx="3" fill="#14143F"/>
+                  <rect x="10" y="17" width="20" height="6" rx="3" fill="#14143F"/>
+                  <rect x="26" y="26" width="8" height="8" rx="2" fill="#14143F"/>
+                </svg>
+                <div class="logo-text-sample">
+                  <span class="sample-name">Icon Symbol</span>
+                  <span class="sample-sub">Single-color application</span>
+                </div>
+              </div>
+              <div class="logo-spec-footer">
+                <strong>Monochrome Mark</strong>
+                <span>Print, stamps, and low-fidelity documents</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colour Palette Swatches -->
+        <div class="brand-grid-block">
+          <div class="swatches-header">
+            <div>
+              <h3 class="brand-subsection-title">Curated Color Palette</h3>
+              <p class="brand-subsection-sub">Click any swatch to copy its hexadecimal code to your clipboard.</p>
+            </div>
+            <div id="copy-toast" class="copy-toast" role="status" aria-live="polite">Hex code copied!</div>
+          </div>
+
+          <div class="swatches-grid">
+            <!-- Proof Blue -->
+            <button type="button" class="swatch-card" data-copy="#3B2FE0" aria-label="Copy Proof Blue #3B2FE0">
+              <div class="swatch-color" style="background-color: #3B2FE0;">
+                <span class="copy-hint">Click to copy</span>
+              </div>
+              <div class="swatch-info">
+                <strong class="swatch-name">Proof Blue</strong>
+                <span class="swatch-hex">#3B2FE0</span>
+                <span class="swatch-usage">Primary Brand, Actions &amp; Authority</span>
+              </div>
+            </button>
+
+            <!-- Night Ink -->
+            <button type="button" class="swatch-card" data-copy="#14143F" aria-label="Copy Night Ink #14143F">
+              <div class="swatch-color" style="background-color: #14143F;">
+                <span class="copy-hint">Click to copy</span>
+              </div>
+              <div class="swatch-info">
+                <strong class="swatch-name">Night Ink</strong>
+                <span class="swatch-hex">#14143F</span>
+                <span class="swatch-usage">Deep Structure, Headings &amp; Contrast</span>
+              </div>
+            </button>
+
+            <!-- Signal Yellow -->
+            <button type="button" class="swatch-card" data-copy="#FFD23F" aria-label="Copy Signal Yellow #FFD23F">
+              <div class="swatch-color" style="background-color: #FFD23F; color: #14143F;">
+                <span class="copy-hint" style="color: #14143F;">Click to copy</span>
+              </div>
+              <div class="swatch-info">
+                <strong class="swatch-name">Signal Yellow</strong>
+                <span class="swatch-hex">#FFD23F</span>
+                <span class="swatch-usage">Offset Shadows, Energy &amp; Highlights</span>
+              </div>
+            </button>
+
+            <!-- Rank Green -->
+            <button type="button" class="swatch-card" data-copy="#12A878" aria-label="Copy Rank Green #12A878">
+              <div class="swatch-color" style="background-color: #12A878;">
+                <span class="copy-hint">Click to copy</span>
+              </div>
+              <div class="swatch-info">
+                <strong class="swatch-name">Rank Green</strong>
+                <span class="swatch-hex">#12A878</span>
+                <span class="swatch-usage">Percentile Scores, Proof &amp; Success</span>
+              </div>
+            </button>
+
+            <!-- Paper -->
+            <button type="button" class="swatch-card" data-copy="#F5F6FF" aria-label="Copy Paper #F5F6FF">
+              <div class="swatch-color" style="background-color: #F5F6FF; border: 1px solid #D6D9F3;">
+                <span class="copy-hint" style="color: #14143F;">Click to copy</span>
+              </div>
+              <div class="swatch-info">
+                <strong class="swatch-name">Paper</strong>
+                <span class="swatch-hex">#F5F6FF</span>
+                <span class="swatch-usage">Canvas Base, Soft Neutral Surface</span>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Typography & Tone of Voice -->
+        <div class="brand-two-col">
+          <!-- Typography -->
+          <div class="typography-card">
+            <h3 class="brand-subsection-title">Typography System</h3>
+            <p class="brand-subsection-sub">Curated pairings from Google Fonts engineered for modern product clarity.</p>
+
+            <div class="font-specimen">
+              <div class="specimen-label">Display &amp; Headings</div>
+              <div class="specimen-family font-heading">Bricolage Grotesque</div>
+              <div class="specimen-sample font-heading">
+                "Proof over pedigree. Real work beats empty certificates."
+              </div>
+              <div class="specimen-weights">Weights: 600 SemiBold • 700 Bold • 800 ExtraBold</div>
+            </div>
+
+            <div class="font-specimen">
+              <div class="specimen-label">Body &amp; Interface</div>
+              <div class="specimen-family font-body">DM Sans</div>
+              <div class="specimen-sample font-body">
+                Clean, neutral, and exceptionally legible on both mobile screens and high-resolution monitors.
+              </div>
+              <div class="specimen-weights">Weights: 400 Regular • 500 Medium • 600 SemiBold • 700 Bold</div>
+            </div>
+          </div>
+
+          <!-- Tone of Voice -->
+          <div class="tone-card">
+            <h3 class="brand-subsection-title">Tone of Voice</h3>
+            <p class="brand-subsection-sub">How Plus Skills speaks to students, recruiters, and the industry.</p>
+
+            <div class="tone-pillars">
+              <div class="tone-item">
+                <div class="tone-badge">Confident &amp; Direct</div>
+                <p>We don't mince words or sugarcoat the 56% employability gap. We respect students enough to give them the unvarnished truth.</p>
+              </div>
+              <div class="tone-item">
+                <div class="tone-badge">Pragmatic &amp; Action-Oriented</div>
+                <p>We celebrate shipping code, closing loops, and solving bugs. Theory is cheap; execution is scarce.</p>
+              </div>
+              <div class="tone-item">
+                <div class="tone-badge">Anti-Pedigree</div>
+                <p>We believe potential is evenly distributed, but opportunity has historically favored elite college postal codes. We measure merit alone.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 6. TEAM SECTION (TEAM DIGITALERS)                                         -->
+    <!-- ========================================================================= -->
+    <section class="section section-team" id="team">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Team DIGITALERS</div>
+          <h2 class="section-title">The team building the proof economy</h2>
+          <p class="section-subtitle">
+            Shiva, Krishna, and Kartik. Driven by the mission to make student employability transparent, verifiable, and equitable across India.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Member 1: Shiva -->
+          <article class="team-card">
+            <div class="team-avatar-box">
+              <div class="avatar-graphic avatar-shiva">
+                <svg viewBox="0 0 100 100" width="80" height="80" aria-hidden="true">
+                  <circle cx="50" cy="50" r="46" fill="#3B2FE0"/>
+                  <circle cx="50" cy="40" r="20" fill="#F5F6FF"/>
+                  <path d="M22 84 C22 66, 35 60, 50 60 C65 60, 78 66, 78 84 Z" fill="#F5F6FF"/>
+                  <circle cx="70" cy="30" r="8" fill="#FFD23F"/>
+                </svg>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Shiva</h3>
+              <div class="team-role-pill">Co-Founder &amp; Product Lead [Placeholder]</div>
+              <p class="team-bio">
+                Leading product strategy, rubric design, and pilot cohort frameworks at Team DIGITALERS to translate employer requirements into student challenges.
+              </p>
+              <div class="team-social-links">
+                <a href="#" class="team-social-link" title="Shiva's LinkedIn profile" aria-label="Shiva LinkedIn Profile Placeholder">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                  <span>LinkedIn #</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Member 2: Krishna -->
+          <article class="team-card">
+            <div class="team-avatar-box">
+              <div class="avatar-graphic avatar-krishna">
+                <svg viewBox="0 0 100 100" width="80" height="80" aria-hidden="true">
+                  <circle cx="50" cy="50" r="46" fill="#14143F"/>
+                  <circle cx="50" cy="40" r="20" fill="#FFD23F"/>
+                  <path d="M22 84 C22 66, 35 60, 50 60 C65 60, 78 66, 78 84 Z" fill="#FFD23F"/>
+                  <rect x="66" y="22" width="14" height="14" rx="4" fill="#3B2FE0"/>
+                </svg>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Krishna</h3>
+              <div class="team-role-pill">Co-Founder &amp; Engineering Lead [Placeholder]</div>
+              <p class="team-bio">
+                Architecting the automated benchmarking engine, verification review queues, and code integrity scorecards at Team DIGITALERS.
+              </p>
+              <div class="team-social-links">
+                <a href="#" class="team-social-link" title="Krishna's LinkedIn profile" aria-label="Krishna LinkedIn Profile Placeholder">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                  <span>LinkedIn #</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Member 3: Kartik -->
+          <article class="team-card">
+            <div class="team-avatar-box">
+              <div class="avatar-graphic avatar-kartik">
+                <svg viewBox="0 0 100 100" width="80" height="80" aria-hidden="true">
+                  <circle cx="50" cy="50" r="46" fill="#12A878"/>
+                  <circle cx="50" cy="40" r="20" fill="#F5F6FF"/>
+                  <path d="M22 84 C22 66, 35 60, 50 60 C65 60, 78 66, 78 84 Z" fill="#F5F6FF"/>
+                  <circle cx="32" cy="28" r="8" fill="#FFD23F"/>
+                </svg>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Kartik</h3>
+              <div class="team-role-pill">Co-Founder &amp; Strategy / Operations [Placeholder]</div>
+              <p class="team-bio">
+                Spearheading college outreach across BCA, B.Tech and BBA institutions and structuring hiring partner pipelines at Team DIGITALERS.
+              </p>
+              <div class="team-social-links">
+                <a href="#" class="team-social-link" title="Kartik's LinkedIn profile" aria-label="Kartik LinkedIn Profile Placeholder">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                  <span>LinkedIn #</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 7. CALL TO ACTION & PILOT SECTION                                         -->
+    <!-- ========================================================================= -->
+    <section class="section section-cta" id="pilot">
+      <div class="container">
+        <div class="cta-banner-card">
+          <div class="cta-inner-grid">
+            <div class="cta-text-content">
+              <span class="cta-eyebrow">Pilot Cohort 2026</span>
+              <h2 class="cta-title">Ready to replace your resume with verified proof?</h2>
+              <p class="cta-desc">
+                Join students from BCA, B.Tech, and BBA cohorts who are actively solving brand-style briefs, unlocking verified percentile scores, and getting noticed by top companies.
+              </p>
+
+              <!-- Survey & Social Placeholder Action Area -->
+              <div class="cta-survey-box">
+                <div class="survey-note">
+                  <strong>Help shape the Plus Skills Pilot:</strong> Take our 2-minute student feedback survey to vote on upcoming brand challenges.
+                </div>
+                <div class="cta-buttons-flex">
+                  <a href="#" class="btn btn-accent btn-lg" id="open-survey-btn" aria-label="Take the Student Survey Placeholder">
+                    <span>Take Student Survey</span>
+                    <span class="placeholder-tag">[Survey Link #]</span>
+                  </a>
+                  <a href="#pilot-form-anchor" class="btn btn-outline-white btn-lg">
+                    Apply for Pilot Cohort &darr;
+                  </a>
+                </div>
+              </div>
+
+              <!-- Social Links with '#' Placeholders as strictly requested -->
+              <div class="social-links-block">
+                <span class="social-title">Follow Plus Skills:</span>
+                <div class="social-tags-list">
+                  <a href="#" class="social-pill-link" aria-label="LinkedIn profile placeholder">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                    <span>LinkedIn</span>
+                    <span class="link-placeholder">[#]</span>
+                  </a>
+                  <a href="#" class="social-pill-link" aria-label="Instagram profile placeholder">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    <span>Instagram</span>
+                    <span class="link-placeholder">[#]</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pilot Application Form -->
+            <div class="cta-form-container" id="pilot-form-anchor">
+              <form id="pilot-registration-form" class="pilot-form" novalidate>
+                <div class="form-header">
+                  <h3 class="form-title">Join Pilot Cohort</h3>
+                  <p class="form-sub">100% Free • Limited to 250 verified students</p>
+                </div>
+
+                <div class="form-group">
+                  <label for="student-name" class="form-label">Full Name</label>
+                  <input type="text" id="student-name" name="name" class="form-input" placeholder="e.g. Aarav Sharma" required>
+                  <span class="form-error" id="name-error">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="student-email" class="form-label">College or Personal Email</label>
+                  <input type="email" id="student-email" name="email" class="form-input" placeholder="aarav@college.edu.in" required>
+                  <span class="form-error" id="email-error">Please enter a valid email address</span>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="student-degree" class="form-label">Target Degree</label>
+                    <select id="student-degree" name="degree" class="form-select" required>
+                      <option value="" disabled selected>Select Degree</option>
+                      <option value="BCA">BCA (Computer Applications)</option>
+                      <option value="B.Tech">B.Tech (Engineering)</option>
+                      <option value="BBA">BBA (Business Administration)</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="student-year" class="form-label">Current Year</label>
+                    <select id="student-year" name="year" class="form-select" required>
+                      <option value="" disabled selected>Year</option>
+                      <option value="2nd Year">2nd Year</option>
+                      <option value="3rd Year">3rd Year</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="student-college" class="form-label">College / University Name</label>
+                  <input type="text" id="student-college" name="college" class="form-input" placeholder="e.g. Christ University, SRM, IPU, etc." required>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block shadow-offset">
+                  <span>Submit Pilot Application</span>
+                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                </button>
+
+                <!-- Success Confirmation Message -->
+                <div id="form-success-box" class="form-success-alert" style="display:none;" role="status">
+                  <strong>🎉 Application Received!</strong>
+                  <p>Welcome to Plus Skills Pilot Cohort 2026. You'll receive your first project brief on your email.</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- 8. FOOTER WITH REQUIRED STATUTORY DISCLAIMER                              -->
+  <!-- ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand-col">
+          <div class="footer-brand-row">
+            <svg class="brand-logo-svg" viewBox="0 0 40 40" width="36" height="36" aria-hidden="true">
+              <rect width="40" height="40" rx="10" fill="#3B2FE0"/>
+              <rect x="17" y="10" width="6" height="20" rx="3" fill="#FFFFFF"/>
+              <rect x="10" y="17" width="20" height="6" rx="3" fill="#FFFFFF"/>
+              <rect x="26" y="26" width="8" height="8" rx="2" fill="#FFD23F"/>
+            </svg>
+            <div>
+              <span class="footer-brand-title">Plus Skills</span>
+              <span class="footer-tagline">Proof over pedigree.</span>
+            </div>
+          </div>
+          <p class="footer-mission">
+            Turning college learning into verified, job-ready performance for 2nd and 3rd-year BCA, B.Tech, and BBA students across India.
+          </p>
+          <div class="footer-team-note">
+            Built with conviction by <strong>Team DIGITALERS</strong> (Shiva, Krishna, Kartik).
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Platform</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Hero Demo</a></li>
+            <li><a href="#problem">The Problem (ISR 2026)</a></li>
+            <li><a href="#how-it-works">The 4-Step Model</a></li>
+            <li><a href="#comparison">Platform Comparison</a></li>
+            <li><a href="#brand">Brand Guidelines</a></li>
+            <li><a href="#team">Team DIGITALERS</a></li>
+          </ul>
+        </div>
+
+        <!-- Audience & Unlocks -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Target Cohorts</h4>
+          <ul class="footer-links-list">
+            <li><a href="#problem">2nd &amp; 3rd-Year BCA</a></li>
+            <li><a href="#problem">2nd &amp; 3rd-Year B.Tech</a></li>
+            <li><a href="#problem">2nd &amp; 3rd-Year BBA</a></li>
+            <li><a href="#how-it-works">Mentor Reviews</a></li>
+            <li><a href="#how-it-works">Placement Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect & Links -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Connect [Placeholders]</h4>
+          <ul class="footer-links-list">
+            <li><a href="#">Student Survey [#]</a></li>
+            <li><a href="#">LinkedIn Community [#]</a></li>
+            <li><a href="#">Instagram Updates [#]</a></li>
+            <li><a href="#pilot">Pilot Registration</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MANDATORY FOOTER DISCLAIMER AS REQUESTED -->
+      <div class="footer-disclaimer-box" role="note" aria-label="Research and Assumption Disclaimers">
+        <p class="disclaimer-title">STATUTORY RESEARCH &amp; METHODOLOGY DISCLAIMER:</p>
+        <p class="disclaimer-body">
+          Market figures cited on this website (including the 56.35% graduate employability benchmark, 72% curriculum misalignment index, and 64% employer preference for practical proof) are derived from secondary research sourced from the <strong>India Skills Report 2026</strong>. Serviceable Addressable Market (SAM) and Serviceable Obtainable Market (SOM) estimates, participant projections, and pilot capacity models are internal team assumptions formulated by <strong>Team DIGITALERS</strong> for strategic planning and product validation purposes.
+        </p>
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">
+          &copy; 2026 <strong>Plus Skills</strong> (Team DIGITALERS). All rights reserved. "Proof over pedigree."
+        </p>
+        <div class="footer-secondary-links">
+          <span>Static Site Deployment Ready</span>
+          <span class="sep">•</span>
+          <a href="#top" class="back-to-top">Back to top &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Survey Modal for "#" Student Survey Link -->
+  <div id="survey-modal" class="modal-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="survey-modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="survey-modal-title" class="modal-title">Student Pilot Feedback Survey</h3>
+        <button type="button" id="close-modal-btn" class="modal-close" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-text">
+          This is an interactive preview of the <strong>Plus Skills Student Survey</strong> (Placeholder: <code>#</code>). In production, this can route to your Google Form, Typeform, or Tally survey.
+        </p>
+        <div class="survey-preview-questions">
+          <div class="survey-q">
+            <label class="survey-q-label">1. What is the single biggest barrier in your college job search?</label>
+            <div class="survey-options">
+              <label class="radio-label"><input type="radio" name="survey-barrier" checked> Lack of real-world project proof</label>
+              <label class="radio-label"><input type="radio" name="survey-barrier"> College GPA filter / Degree bias</label>
+              <label class="radio-label"><input type="radio" name="survey-barrier"> No feedback on rejected applications</label>
+            </div>
+          </div>
+          <div class="survey-q">
+            <label class="survey-q-label">2. Which live brand project would you prefer to execute first?</label>
+            <div class="survey-options">
+              <label class="radio-label"><input type="radio" name="survey-type" checked> Full-Stack Payment Flow (BCA/B.Tech)</label>
+              <label class="radio-label"><input type="radio" name="survey-type"> Distributed API Microservice (B.Tech)</label>
+              <label class="radio-label"><input type="radio" name="survey-type"> B2B SaaS Growth &amp; Unit Economics (BBA)</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="dismiss-modal-btn" class="btn btn-primary btn-block">Confirm Response &amp; Return to Page</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
